@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Overview - Rogunovich Violetta</title>
+    <meta name="description" content="HTML5 Overview">
+    <meta name="keywords" content="HTML5 Overview">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {           
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        section, article {
+            background-color: #e9e9e9;
+            padding: 10px;
+        }
+        video, audio {
+            width: 100%; /* Adjust the size of the video */
+            max-width: 600px; /* Ensures the video is not overly large */
+        }
+        footer img {
+            width: 100px;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        li a:hover {
+            color: rgb(0, 255, 153);
+        }
+        li:hover {
+            background-color: rgb(93, 93, 93);
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 0.3fr 0.7fr;
+        }
+
+        .aside {
+            background-color: #333;
+        }
+
+        video, audio {
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 Overview: Practical Work 01</h1>
+        <p>Prepared by Rogunovich Violetta</p>
+    </header>
+    <div class="container">
+        <div class="aside">
+            <nav>
+            <ul>
+                <li><a href="Surname_name_pw1.html">HTML5 Standard</a></li>
+                <li><a href="quest_2.html">Difference in Standards</a></li>
+                <li><a href="quest_3.html">Minimal HTML</a></li>
+                <li><a href="ques_4.html">Semantic vs Presentational</a></li>
+                <li><a href="quest_5.html">Browser Support</a></li>
+                <li><a href="quest_6.html">Media Formats</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="main_1">
+            <main>
+                <section>
+                    <h2>HTML5 Details and Analysis</h2>
+                    <dl>                      
+                        
+                        <dt id="question6">Supported Audio and Video Formats in HTML</dt>
+                        <dd>HTML supports audio formats like MP3, WAV, and video formats like MP4, WebM. Using unsupported formats may lead to playback issues in some browsers.</dd>
+                    </dl>
+                </section>
+            </main>
+            <article>
+                <h2>Media Example</h2>
+                <video controls>
+                    <source src="/HTML in 5 minutes.mp4" type="video/mp4">
+                    <source src="https://youtu.be/salY_Sm6mv4" type="video/webm">
+                    
+                    
+                    Your browser does not support the video tag.
+                </video>                
+                <audio controls>
+                    <source src="/Happy Birthday to you! Wishes and birthday song..mp3" type="audio/mpeg">
+                    <source src="audio.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Rogunovich Violetta. All rights reserved.</p>
+        <p>This practical work helped me understand the depth of HTML5 and multimedia integration. The most challenging part was ensuring compatibility across different browsers. I learned a lot about semantic HTML and how to structure documents effectively.</p>
+        <img src="/logo.jpg" alt="SB.BSU Logo">
+    </footer>
+</body>
+</html>
